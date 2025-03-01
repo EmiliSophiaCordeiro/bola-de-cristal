@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Times New Roman', serif;
+  }
+  
+  .respostas {
+    border: 2px solid rgb(152, 33, 208);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #f7e0f6; 
+  }
+  
+  #resposta {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .ball {
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+  }  
+  
+  .ball img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: rgb(152, 33, 208);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(253, 239, 252);
+    color: rgb(0, 0, 0);
+  }
